@@ -16,7 +16,7 @@ public class Utility {
 		
 		String url="jdbc:mysql://localhost:3306/hrms";
 		try {
-			con= DriverManager.getConnection(url, "root", "Bawari@08");
+			con= DriverManager.getConnection(url, "root", "root");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
